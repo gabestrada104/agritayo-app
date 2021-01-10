@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.agritayo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.agritayo.DeliveryFoodPanel.Delivery_ShippingOrder"
+            android:label="Ship Orders"></activity>
+        <activity
+            android:name="com.example.agritayo.DeliveryFoodPanel.DeliveryShipOrderView"
+            android:label="Ship Orders" />
+        <activity
+            android:name="com.example.agritayo.DeliveryFoodPanel.DeliveryPendingOrderView"
+            android:label="Pending Orders" />
+        <activity android:name="com.example.agritayo.Delivery_FoodPanelBottomNavigation" />
+        <activity
+            android:name="com.example.agritayo.Delivery_SendOtp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.Delivery_ForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.Delivery_Login"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.Delivery_LoginPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.Delivery_VerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.Delivery_registeration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.ChefFoodPanel.ChefPreparedOrderView"
+            android:label="Prepared Orders" />
+        <activity
+            android:name="com.example.agritayo.ChefFoodPanel.ChefPreparedOrder"
+            android:label="Prepared Orders" />
+        <activity
+            android:name="com.example.agritayo.ChefFoodPanel.ChefOrdertobePrepareView"
+            android:label="Orders to be Prepared" />
+        <activity
+            android:name="com.example.agritayo.ChefFoodPanel.ChefOrderTobePrepared"
+            android:label="Orders to be Prepared" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel.CustomerPaymentOTP"
+            android:label="Online Payment" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel.CustomerOnlinePayment"
+            android:label="Online Payment" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel.CustomerPayment"
+            android:label="Payable Orders" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel.PayableOrders"
+            android:label="Payable Orders" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel.PendingOrders"
+            android:label="Pending Orders" />
+        <activity
+            android:name="com.example.agritayo.ChefFoodPanel.Chef_order_dishes"
+            android:label="Orders" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel.CustomerPhoneSendOTP"
+            android:label="Mobile Number" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel.CustomerPhonenumber"
+            android:label="Mobile Number" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel.CustomerForgotpassword"
+            android:label="Password" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel.CustomerPassword"
+            android:label="Password" />
+        <activity android:name="com.example.agritayo.CustomerFoodPanel.OrderDish" />
+        <activity
+            android:name="com.example.agritayo.ChefFoodPanel.Update_Delete_Dish"
+            android:label="Home" />
+        <activity
+            android:name="com.example.agritayo.ChefFoodPanel.Chef_PostDish"
+            android:label="Post Item" />
+        <activity
+            android:name="com.example.agritayo.ChefFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.example.agritayo.CustomerFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+        <activity
+            android:name="com.example.agritayo.MainMenu"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.Chefsendotp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.Chefloginphone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.sendotp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.LoginPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.ChefVerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.VerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.ChefForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.ChefLogin"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.ChooseOne"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.ChefRegisteration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.ForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.Login"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.Registeration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.example.agritayo.MainActivity"
+            android:theme="@style/AppThemeNoActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.example.agritayo.SendNotification.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.agritayo.SendNotification.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

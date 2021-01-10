@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AgriTayo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="shipper">
+        <item>Shipper 1</item>
+        <item>Shipper 2</item>
+    </string-array>
+
+    <string-array name="State">
+        <item>Pangasinan</item>
+        <item>Tarlac</item>
+
+<!--        String[] Dagupan = {"Gueset", "Boquig", "Binloc"};-->
+<!--        String[] Calasiao = {"Doyong", "Ambuetel", "Buenlag"};-->
+<!--        String[] Camiling = {"Anilong", "Bacbac", "Bacsay"};-->
+<!--        String[] Conception = {"Mabilog", "Magao", " Malupa", "Urdaneta", "Lingayen"};-->
+
+    </string-array>
+</resources>

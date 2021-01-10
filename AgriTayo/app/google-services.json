@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "127178223663",
+    "firebase_url": "https://agritayo-44c27-default-rtdb.firebaseio.com",
+    "project_id": "agritayo-44c27",
+    "storage_bucket": "agritayo-44c27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127178223663:android:7e161201366c49d59b96da",
+        "android_client_info": {
+          "package_name": "com.example.agritayo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127178223663-m4jl7fj99bh29s9n255djcm150v5btal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agritayo",
+            "certificate_hash": "8330f2835095e3df51730ce5055ed5f51dd1b658"
+          }
+        },
+        {
+          "client_id": "127178223663-bpbh0lcj9dqi1kuekgkddabqq2vgltah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByDq1ndtf859lTLIkyA48JdQbtf3bWbKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127178223663-bpbh0lcj9dqi1kuekgkddabqq2vgltah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
